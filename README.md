@@ -13,6 +13,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/move-zeroes/
 * https://www.hackerrank.com/challenges/repeated-string/problem
 * https://www.hackerrank.com/challenges/ctci-ransom-note/problem
+* https://www.hackerrank.com/challenges/two-strings/problem
 
 ### Queues / Stacks
 * https://leetcode.com/problems/valid-parentheses/
