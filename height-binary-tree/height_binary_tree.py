@@ -53,6 +53,10 @@ def height(root):
     if root.right != None:
         right_height = 1 + height(root.right)
 
+    # return the larger height between right and left side
+    # this accounts for branches with left and right
+    return max(left_height, right_height)
+
 
 
 
