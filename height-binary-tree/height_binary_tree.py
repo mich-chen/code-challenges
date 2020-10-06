@@ -40,6 +40,21 @@ def height(root):
     left_height = 0
     right_height = 0
 
-    if root is None:
+    # if only root node, return 0
+    # or if at the end of a branch/leaf
+    if root == None:
         return 0
+
+    # increment left height when there is a left node
+    if root.left != None:
+        left_height = 1 + height(root.left)
+
+    # increment right height when there is a right node
+    if root.right != None:
+        right_height = 1 + height(root.right)
+
+
+
+
+
 
