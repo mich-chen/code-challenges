@@ -25,3 +25,6 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 
 ### Greedy
 * https://leetcode.com/problems/assign-cookies/
+
+### Trees
+* https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
