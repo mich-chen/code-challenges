@@ -58,7 +58,32 @@ def height(root):
     return max(left_height, right_height)
 
 
+if __name__ == '__main__':
 
+    tree1 = BinarySearchTree()
+    tree2 = BinarySearchTree()
+    tree3 = BinarySearchTree()
+
+    # ***** test 1 ******
+    t1 = 5
+    arr1 = [3, 1, 7, 5, 4]
+    for i in range(t1):
+        tree1.create(arr1[i])
+    print(height(tree1.root))  # 3
+
+    # ***** test 2 *****
+    t2 = 7
+    arr2 = [3, 5, 2, 1, 4, 6, 7]
+    for i in range(t2):
+        tree2.create(arr2[i])
+    print(height(tree2.root))  # 3
+
+    # ***** test 3 *****
+    t3 = 1
+    arr3 = [15]
+    for i in range(t3):
+        tree3.create(arr3[i])
+    print(height(tree3.root))  # 0
 
 
 
