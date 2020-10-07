@@ -57,6 +57,30 @@ def lca(root, v1, v2):
     return root
 
 
+"""
+# Alternative Solution: no recursion, BST
+
+def lca(root, v1, v2):
+
+    current = root
+
+    while current.info:
+
+        if current.info > v1 and current.info > v2:
+            current = current.left
+
+        elif current.info < v1 and current.info < v2:
+            current = current.right
+
+        else:
+            return current
+
+    return current
+"""
+
+
+
+
 if __name__ == '__main__':
     
     # ***** test 1 *****
