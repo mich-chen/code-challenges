@@ -19,6 +19,11 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/valid-parentheses/
 * https://www.hackerrank.com/challenges/sock-merchant/problem
 
+### Linked Lists
+
+### Trees
+* https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
+
 ### Two Pointer / Sliding Window
 * https://leetcode.com/problems/valid-palindrome/
 * https://www.hackerrank.com/challenges/counting-valleys/
@@ -26,5 +31,3 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 ### Greedy
 * https://leetcode.com/problems/assign-cookies/
 
-### Trees
-* https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
