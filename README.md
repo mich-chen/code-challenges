@@ -22,9 +22,10 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 
 ### Linked Lists
 
-### Trees
+### Trees / Recursions
 * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
 * https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem
+* https://leetcode.com/problems/longest-univalue-path/
 
 ### Two Pointer / Sliding Window
 * https://leetcode.com/problems/valid-palindrome/
