@@ -23,6 +23,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 
 ### Trees
 * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
+* https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem
 
 ### Two Pointer / Sliding Window
 * https://leetcode.com/problems/valid-palindrome/
