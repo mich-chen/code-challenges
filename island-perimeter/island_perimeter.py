@@ -98,7 +98,7 @@ def islandPerimeter(grid: List[List[int]]) -> int:
                     
                 # check left perimeter
                 # if at left-most column, then col == 0
-                if col == 0 or grid[row][col - 1]:
+                if col == 0 or grid[row][col - 1] == 0:
                     perimeter += 1
                     
                 # check right perimeter
