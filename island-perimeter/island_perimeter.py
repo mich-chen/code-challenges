@@ -1,7 +1,43 @@
 from typing import List
 
 def islandPerimeter(grid: List[List[int]]) -> int:
-    """Return perimeter of an island in a grid where 1 is island, 0 is water."""
+    """Return island perimeter recursively using DFS."""
+
+    rows = len(grid)
+    cols = len(grid[0])
+    perimeter = 0
+
+    def dfs(grid, row, col):
+        """helper DFS recursion function"""
+
+        # check top is water
+        top = 1 if (row == 0 or grid[row - 1][col] == 0) else 0
+
+        # check bottom is water
+        bottom = 1 if ((row == rows - 1) or grid[row + 1][col] == 0) else 0
+
+        # check left is water
+        left = 1 if (col == 0 or grid[row][col - 1] == 0) else 0
+
+        # check right is water
+        right = 1 if ((col == cols - 1) or grid[row][col + 1] == 0) else 0
+
+        return (top + bottom + left + right)
+
+    for row in range(rows):
+        for col in range(cols):
+            # base case, only DFS if on an island
+            if grid[row][col] == 1:
+                # sum up all the possible sides with water
+                perimeter += dfs(grid, row, col)
+
+    return perimeter
+
+
+"""
+Alternative solution: brute force 
+def islandPerimeter(grid: List[List[int]]) -> int:
+    \"""Return perimeter of an island in a grid where 1 is island, 0 is water."""
     
     """
     grid[i][j] represents each individual square
@@ -37,8 +73,8 @@ def islandPerimeter(grid: List[List[int]]) -> int:
             [i+1]
             if square's top is 0, do nothing
             if square's top is 1, increment perimeter + 1
-    """
-        
+    \"""
+
     rows = len(grid)
     cols = len(grid[0]) # number of columns in first row
     perimeter = 0
@@ -71,6 +107,7 @@ def islandPerimeter(grid: List[List[int]]) -> int:
                     perimeter += 1
                     
     return perimeter
+"""
 
 
 if __name__ == '__main__':
