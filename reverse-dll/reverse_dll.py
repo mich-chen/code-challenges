@@ -29,6 +29,32 @@ def print_doubly_linked_list(node):
 
 
 def reverse(head):
+    """Recursively reverse dll."""
+
+    # if empty list
+    if head is None:
+        return None
+
+    # temporarily store current's next
+    # swap its next and previous
+    next_node = head.next
+    head.next = head.prev
+    head.prev = next_node
+
+    # if prev is None, means reversed
+    # have gone to end of original dll, and now last node is at beginning
+    if head.prev == None:
+        return head
+
+    else:
+        # node.prev is now the next node
+        return reverse(head.prev)
+
+
+
+"""
+Alternative solution: traverse, while loop
+def reverse(head):
 
     # if empty dll
     if head is None:
@@ -57,6 +83,7 @@ def reverse(head):
         current = next_node
 
     return tail
+"""
 
 
 if __name__ == '__main__':
