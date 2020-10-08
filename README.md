@@ -1,4 +1,4 @@
-# Code Challenges
+# Completed Code Challenges
 Master repo to hold all code challenge solutions by folder. Each challenge will include README with prompt, examples, explanations, and sources. 
 
 ### Arrays
