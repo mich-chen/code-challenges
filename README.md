@@ -22,6 +22,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 
 ### Linked Lists
 * https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem
+* https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem
 
 ### Trees / Recursions
 * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
