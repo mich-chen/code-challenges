@@ -23,10 +23,9 @@ class DoublyLinkedList:
 
 def print_doubly_linked_list(node):
     while node:
-        print(node)
+        print(node.data)
 
         node = node.next
-
 
 
 def reverse(head):
@@ -58,3 +57,18 @@ def reverse(head):
         current = next_node
 
     return tail
+
+
+if __name__ == '__main__':
+
+# ***** test 1 *****
+    for t_itr in range(1):
+        llist_count = [1, 2, 3, 4]
+
+        llist = DoublyLinkedList()
+
+        for item in llist_count:
+            llist.insert_node(item)
+
+        llist1 = reverse(llist.head)
+        print_doubly_linked_list(llist1)  # 4 3 2 1
