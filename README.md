@@ -21,6 +21,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://www.hackerrank.com/challenges/sock-merchant/problem
 
 ### Linked Lists
+* https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem
 
 ### Trees / Recursions
 * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
