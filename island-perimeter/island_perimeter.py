@@ -103,7 +103,7 @@ def islandPerimeter(grid: List[List[int]]) -> int:
                     
                 # check right perimeter
                 # if at right-most column, then col == end of range which is cols - 1
-                if (col == cols - 1) or grid[row][col + 1]:
+                if (col == cols - 1) or grid[row][col + 1] == 0:
                     perimeter += 1
                     
     return perimeter
