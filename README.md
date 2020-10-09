@@ -30,9 +30,10 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem
 * https://leetcode.com/problems/longest-univalue-path/
 
-### Graphs / Recursions / DFS / BFS
+### Graphs / Recursions / DFS 
 * https://leetcode.com/problems/island-perimeter/
 * https://leetcode.com/problems/flood-fill/submissions/
+* https://leetcode.com/problems/max-area-of-island/
 
 ### Two Pointer / Sliding Window
 * https://leetcode.com/problems/valid-palindrome/
