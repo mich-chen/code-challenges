@@ -29,6 +29,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
 * https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem
 * https://leetcode.com/problems/longest-univalue-path/
+* https://leetcode.com/problems/minimum-depth-of-binary-tree/
 
 ### Graphs / Recursions / DFS 
 * https://leetcode.com/problems/island-perimeter/
