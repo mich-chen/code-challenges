@@ -11,22 +11,21 @@ def minDepth(root):
     if root is None:
         return 0
 
-    depth = 0
-    # create a queue
-    queue = collections.deque([root])
+    # create a queue, consists of list of tuples
+    # tuple is node and its correspending depth
+    queue = collections.deque([(root, 1)])
 
     while queue:
         # pop from beginning of queue
-        current = queue.popleft()
+        current, depth = queue.popleft()
         # if current node is not None
         if current:
-            depth += 1
             # if current node is a leaf reached min depth
             if not current.left and not current.right:
                 return depth
             # if not at leaf, then continue to add to queue
-            queue.append(current.left)
-            queue.append(current.right)
+            queue.append((current.left, depth + 1))
+            queue.append((current.right, depth + 1))
 
     return depth
 
