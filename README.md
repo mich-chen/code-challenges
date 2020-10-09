@@ -34,6 +34,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/island-perimeter/
 * https://leetcode.com/problems/flood-fill/submissions/
 * https://leetcode.com/problems/max-area-of-island/
+* https://leetcode.com/problems/number-of-islands/
 
 ### Two Pointer / Sliding Window
 * https://leetcode.com/problems/valid-palindrome/
