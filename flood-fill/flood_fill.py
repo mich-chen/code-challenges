@@ -1,6 +1,6 @@
 from typing import List
 
-def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
+def floodFill(image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
         
         """
         connected 4-directionally --> horizontal, vertical, no diagonal
@@ -37,3 +37,11 @@ def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> 
         dfs(sr,sc)
             
         return image
+
+
+if __name__ == '__main__':
+    
+    image = [[1,1,1],[1,1,0],[1,0,1]]
+    print(floodFill(image, 1, 1, 2))
+    image2 = [[1,2,3],[1,2,2],[0,0,2],[2,2,0]]
+    print(floodFill(image2, 2, 2, 4))
