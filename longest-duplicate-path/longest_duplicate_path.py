@@ -1,3 +1,20 @@
+"""
+Given a grid represented as a 2d array matrix
+Return the length of the longest path that has same values.
+From each cell, you can either move in two directions:
+    horizontally or vertically
+You may NOT move diagonally or move outside of the boundary.
+
+ex:
+nums = [
+[1,1],
+[5,5],
+[5,5]
+]
+
+Answer: 4 (four 5's is longest path)
+"""
+
 def longestDuplicatePath(grid):
     
     rows = len(grid)
