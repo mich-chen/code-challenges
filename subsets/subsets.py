@@ -1,5 +1,6 @@
 from typing import List
 
+"""
 # ***** DFS recursively *****
 class Solution:
 
@@ -22,10 +23,32 @@ class Solution:
         # start dfs recursion with base case: empty list
         self.dfs(nums, [], output)
         return sorted(output)
+"""
+
+# ***** Iteratively *****
+class Solution:
+
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+
+        output = [[]]
+
+        if not nums:
+            return output
+
+
+        for num in nums:
+            # for every num in nums, concatenate every current subset in output
+            output += [subset + [num] for subset in output]
+            # similar to if creating a separate temp array to store all subsets
+            # of current num and then appending that to output
+
+        return output
+
+
 
 
 if __name__ == '__main__':
     
     soln = Solution()
     print(soln.subsets([1,2,3])) 
-    [[], [1], [1, 2], [1, 2, 3], [1, 3], [2], [2, 3], [3]]
+    # [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
