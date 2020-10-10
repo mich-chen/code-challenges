@@ -8,6 +8,7 @@ def longestDuplicatePath(grid):
     target = grid[0][0]
     
     def dfs(row, col, target):
+        # if row or col is out of bouds and base cases
         if row < 0 or row >= rows or col < 0 or col >= cols or (row, col) in visited or grid[row][col] != target:
             return 0
     
