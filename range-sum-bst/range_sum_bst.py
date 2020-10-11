@@ -30,3 +30,31 @@ def rangeSumBST(self, root: TreeNode, L: int, R: int) -> int:
                 total_sum += current.val
 
     return total_sum
+
+
+    """
+
+    *** Alternative solution: DFS + Recursion ***
+
+    # base cases
+    if not root:
+        return 0
+
+    total_sum = 0
+
+    # if current node falls within L and R range, add to total sum
+    if L <= root.val <= L:
+        total_sum += 1
+
+    # call function on all left and right children and add their sums
+    total_sum += rangeSumBST(root.left, L, R)
+    total_sum += rangeSumBST(root.right, L, R)
+
+    return total_sum
+
+    """
+
+# **** Tests *****
+
+# print(rangeSumBST([10,5,15,3,7,null,18], 7, 15))  # 32
+
