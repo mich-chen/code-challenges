@@ -21,6 +21,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 ### Strings
 * https://www.hackerrank.com/challenges/ctci-making-anagrams/problem
 * https://www.hackerrank.com/challenges/alternating-characters/problem
+* https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem
 
 ### Queues / Stacks
 * https://leetcode.com/problems/valid-parentheses/
