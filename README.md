@@ -19,7 +19,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/first-unique-character-in-a-string/
 
 ### Strings
-
+https://www.hackerrank.com/challenges/ctci-making-anagrams/problem
 
 ### Queues / Stacks
 * https://leetcode.com/problems/valid-parentheses/
