@@ -76,3 +76,4 @@ if __name__ == '__main__':
     print(isValid('abcdefghhgfedecba'))  # YES
     print(isValid('aaaabbcc'))  # NO
     print(isValid('aabbcd'))  # NO
+    print(isValid('aabbc'))  # YES
