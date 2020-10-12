@@ -34,3 +34,4 @@ def threeSum(nums: List[int]) -> List[List[int]]:
 
 print(threeSum([-1,0,1,2,-1,-4]))  # [[-1,-1,2],[-1,0,1]]
 print(threeSum([0,0,0]))  # [0,0,0]
+print(threeSum([1, 0, -1]))
