@@ -22,9 +22,11 @@ def isValid(s):
     elif len(dict_cts) == 2:
         key1, key2 = dict_cts.keys()
         # if removing the letter with 1 occurence also becomes same freq as other
-        if dict_cts[key1] == 1 and ((key1 - 1) == key2):
+        # key subtraction to account for if removing 1 instance, does it equal the other key,
+        # or if removing 1 instance, does it completely remove it so 0
+        if dict_cts[key1] == 1 and ((key1 - 1) == key2 or (key1 - 1) == 0):
             return 'YES'
-        if dict_cts[key2] == 1 and ((key2 - 1) == key1):
+        if dict_cts[key2] == 1 and ((key2 - 1) == key1 or (key2 - 1) == 0):
             return 'YES'
         else:
             return 'NO'
