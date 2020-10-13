@@ -9,6 +9,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/subsets/ --> with Recursion
 * https://leetcode.com/problems/3sum/
 * https://www.hackerrank.com/challenges/2d-array/problem
+* https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 
 ### Hashmaps
 * https://leetcode.com/problems/two-sum/
