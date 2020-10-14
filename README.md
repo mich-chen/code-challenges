@@ -33,6 +33,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem
 * https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem
 * https://leetcode.com/problems/merge-two-sorted-lists/
+* https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
 
 ### Trees / Recursions / DFS/ BFS
 * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
@@ -58,4 +59,5 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 
 ### Sorting
 * https://www.hackerrank.com/challenges/ctci-bubble-sort/problem
+* https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem
 
