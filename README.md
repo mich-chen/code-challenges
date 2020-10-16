@@ -53,6 +53,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 ### Two Pointer / Sliding Window
 * https://leetcode.com/problems/valid-palindrome/
 * https://www.hackerrank.com/challenges/counting-valleys/
+* https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 ### Greedy
 * https://leetcode.com/problems/assign-cookies/
