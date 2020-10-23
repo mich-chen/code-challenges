@@ -9,7 +9,7 @@ def averageOfLevels(root: TreeNode) -> List[float]:
 
     # BFS
     output = []
-    # queue of tuples for node, and level
+    # queue of tuples for node
     queue = collections.deque([root])
     
     while queue:
