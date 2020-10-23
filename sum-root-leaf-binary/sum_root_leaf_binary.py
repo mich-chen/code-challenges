@@ -35,5 +35,9 @@ def sumRootToLeaf(root: TreeNode) -> int:
                     dfs(node.right, current)
         # start recursion at root and an empty string
         dfs(root, '')
-        
+
         return sum(int(string,2) for string in binaries)
+
+# **** test cases ****
+# sumRootToLeaf([1,0,1,0,1,0,1]) --> 22
+# (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
