@@ -8,22 +8,32 @@ from typing import TreeNode
 #         self.right = right
 
 def sumRootToLeaf(root: TreeNode) -> int:
+
+    """
+    Using int(string, base) to convert string of number and base 2
+    """
         
+        # base case if tree only 1 node
         if not root.left and not root.right:
             return int(str(root.val), 2)
         
-        binarys = []
+        # keep track of all the string binaries
+        binaries = []
         
+        # helper DFS function
         def dfs(node, string):
             if node:
+                # concatenate current value to the input string
                 current = string + str(node.val)
                 # if node is a leaf
                 if not node.left and not node.right:
-                    binarys.append(current)
+                    # append the completed binary string to list
+                    binaries.append(current)
                 # if not a leaf, look at children
                 else:
                     dfs(node.left, current)
                     dfs(node.right, current)
-                    
+        # start recursion at root and an empty string
         dfs(root, '')
-        return sum(int(string,2) for string in binarys)
+        
+        return sum(int(string,2) for string in binaries)
