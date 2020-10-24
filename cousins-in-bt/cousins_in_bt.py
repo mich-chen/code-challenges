@@ -19,17 +19,15 @@ def isCousins(root: TreeNode, x: int, y: int) -> bool:
     parents = {x: None, y: None}
     depths = {x: 0, y: 0}
     
-    def dfs(node, depth, parent, find):
+    def dfs(node, depth, parent, x, y):
         if node:
-            if node.val == find:
-                parents[find] = parent
-                depths[find] = depth
-            else:
-                dfs(node.left, depth + 1, node, find)
-                dfs(node.right, depth + 1, node, find)
+            if node.val == x or node.val == y:
+                parents[node.val] = parent
+                depths[node.val] = depth
+            dfs(node.left, depth + 1, node, find)
+            dfs(node.right, depth + 1, node, find)
         else:
             return
         
-    dfs(root, 0, TreeNode(), x)
-    dfs(root, 0 ,TreeNode(), y)
+    dfs(root, 0, TreeNode(), x, y)
     return parents[x] != parents[y] and depths[x] == depths[y]
