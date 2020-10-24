@@ -46,6 +46,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/maximum-depth-of-binary-tree/
 * https://leetcode.com/problems/average-of-levels-in-binary-tree/
 * https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+* https://leetcode.com/problems/cousins-in-binary-tree/
 
 ### Graphs / Recursions / DFS 
 * https://leetcode.com/problems/island-perimeter/
