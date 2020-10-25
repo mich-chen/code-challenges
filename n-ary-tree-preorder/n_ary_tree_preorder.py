@@ -22,3 +22,17 @@ def preorder(root: 'Node') -> List[int]:
 
     recurse(root)
     return output
+
+# ***** Iteratively ******
+"""
+    output = []
+    stack = [root]
+
+    while stack:
+        current = stack.pop()
+        output.append(current.val)
+        for child in current.children[::-1]:
+            stack.append(child)
+
+    return output
+"""
