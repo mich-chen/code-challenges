@@ -57,6 +57,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/max-area-of-island/
 * https://leetcode.com/problems/number-of-islands/
 * Longest Duplicate Path - similar to Max Area of Island
+* https://leetcode.com/problems/find-the-town-judge/
 
 ### Two Pointer / Sliding Window
 * https://leetcode.com/problems/valid-palindrome/
