@@ -25,3 +25,18 @@ def postorder(root: 'Node') -> List[int]:
     recurse(root)
     return output
     
+
+# ***** Iteratively *******
+"""
+    output = []
+    stack = [root]
+    # root.children are a list of nodes
+
+    while stack:
+        current = stack.pop()
+        if current:
+            output.append(current.val)
+        stack.extend(current.children)
+
+    return output[::-1]
+"""
