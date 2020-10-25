@@ -13,7 +13,6 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/train/python 
 * https://leetcode.com/problems/squares-of-a-sorted-array/
 
-
 ### Hashmaps
 * https://leetcode.com/problems/two-sum/
 * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
@@ -52,6 +51,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/search-in-a-binary-search-tree/
 * https://leetcode.com/problems/n-ary-tree-postorder-traversal/
 * https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+* https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 
 ### Graphs / Recursions / DFS 
 * https://leetcode.com/problems/island-perimeter/
