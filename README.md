@@ -51,6 +51,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/cousins-in-binary-tree/
 * https://leetcode.com/problems/search-in-a-binary-search-tree/
 * https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+* https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 
 ### Graphs / Recursions / DFS 
 * https://leetcode.com/problems/island-perimeter/
