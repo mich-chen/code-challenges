@@ -53,6 +53,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 * https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 * https://leetcode.com/problems/delete-nodes-and-return-forest/
+* https://leetcode.com/problems/leaf-similar-trees/
 
 ### Graphs / Recursions / DFS 
 * https://leetcode.com/problems/island-perimeter/
