@@ -38,6 +38,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem
 * https://leetcode.com/problems/merge-two-sorted-lists/
 * https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
+* https://leetcode.com/problems/middle-of-the-linked-list/
 
 ### Trees / Recursions / DFS/ BFS
 * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
