@@ -32,6 +32,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 ### Queues / Stacks
 * https://leetcode.com/problems/valid-parentheses/
 * https://www.hackerrank.com/challenges/sock-merchant/problem
+* https://leetcode.com/problems/daily-temperatures/
 
 ### Linked Lists
 * https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem
