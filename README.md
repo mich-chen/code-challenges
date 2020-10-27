@@ -21,6 +21,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://www.hackerrank.com/challenges/ctci-ransom-note/problem
 * https://www.hackerrank.com/challenges/two-strings/problem
 * https://leetcode.com/problems/first-unique-character-in-a-string/
+* https://leetcode.com/problems/valid-anagram/
 
 ### Strings
 * https://www.hackerrank.com/challenges/ctci-making-anagrams/problem
