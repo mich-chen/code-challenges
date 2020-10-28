@@ -35,11 +35,12 @@ def helper2(str1, str2):
         # decrement count for each char in string 2
         ch_counts[ord(char) - ord('a')] -= 1
 
-    count = 0
-    for c in ch_counts:
-        if c > 0:
-            count += c
-    return count
+    # count = 0
+    # for c in ch_counts:
+    #     if c > 0:
+    #         count += c
+    # return count
+    return sum(count for count in ch_counts if count > 0)
 
 def anagram_diff(a, b):
     
