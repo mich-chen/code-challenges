@@ -38,7 +38,7 @@ def helper2(str1, str2):
     count = 0
     for c in ch_counts:
         if c > 0:
-            count += 1
+            count += c
     return count
 
 def anagram_diff(a, b):
