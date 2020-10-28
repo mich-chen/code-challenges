@@ -1,6 +1,7 @@
 from collections import Counter
 
 def helper_count_diff(str1, str2):
+    # to be valid anagram, must be same length
     if len(str1) != len(str2):
         return -1
 
@@ -19,12 +20,34 @@ def helper_count_diff(str1, str2):
     return count
 
 
+def helper2(str1, str2):
+    # to be valid anagram, must be same length
+    if len(str1) != len(str2):
+        return -1
+
+    ch_counts = [0] * 26
+    for char in str1:
+        # increment count for each char in string 1
+        ch_counts[ord(char) - ord('a')] += 1
+
+    for char in str2:
+        # decrement count for each char in string 2
+        ch_counts[ord(char) - ord('a')] -= 1
+
+    count = 0
+    for c in ch_counts:
+        if c > 0:
+            count += 1
+    return count
+
 def anagram_diff(a, b):
     
     output = []
     for i in range(len(a)):
-        output.append(helper_count_diff(a[i], b[i]))
+        output.append(helper2(a[i], b[i]))
     return output
+
+
 
 
 if __name__ == '__main__':
