@@ -5,8 +5,8 @@ def helper_count_diff(str1, str2):
     if len(str1) != len(str2):
         return -1
 
-    count = 0
-    ct_str1 = Counter(str1)
+    count = 0 
+    ct_str1 = Counter(str1) 
 
     # iterate through second string
     # if char in string 1 dictionary then decrement
@@ -25,7 +25,8 @@ def helper2(str1, str2):
     if len(str1) != len(str2):
         return -1
 
-    ch_counts = [0] * 26
+    # use bucket to track counts of each alphabetical char
+    ch_counts = [0] * 26 # bucket
     for char in str1:
         # increment count for each char in string 1
         ch_counts[ord(char) - ord('a')] += 1
