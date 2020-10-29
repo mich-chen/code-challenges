@@ -3,6 +3,8 @@ Two teams are playing football(soccer) match and the recod of events for each te
 
 Merge the events for each team into single game event with teams name in front and sorted by time and event in order of GYRS. In the case of the same event happening at the same time, output should be sorted lexicographically based on teams name and players name.
 
+Return an array of strings.
+
 #### Example:
 ```
 Input:
