@@ -14,6 +14,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/squares-of-a-sorted-array/
 * Game Events found through Leetcode discussion
 * https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+* https://www.hackerrank.com/challenges/minimum-swaps-2/problem
 
 ### Hashmaps
 * https://leetcode.com/problems/two-sum/
