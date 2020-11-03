@@ -40,6 +40,9 @@ def lca(root, v1, v2):
 
     Classical Binary Search Tree problem."""
 
+    if root == None:
+        return 0
+
     # lca must fall between v1 and v2
 
     # if current node is larger than both values
