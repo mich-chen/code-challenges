@@ -65,6 +65,8 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 * https://leetcode.com/problems/deepest-leaves-sum/
 * https://leetcode.com/problems/binary-tree-paths/
+* https://leetcode.com/problems/path-sum/
+* https://leetcode.com/problems/path-sum-ii/
 
 ### Graphs / Recursions / DFS 
 * https://leetcode.com/problems/island-perimeter/
