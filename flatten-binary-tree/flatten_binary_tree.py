@@ -20,26 +20,23 @@ class Solution:
         if not root:
             return
         
-        def recurse(node):
+        def recurse(node, prev):
         # preorder traversal
             if node:
                 left = node.left
                 right = node.right
-                if not self.prev:
-                    self.prev = node
-                else:
-                    self.prev.right = node
-                    self.prev.left = None
-                    self.prev = node
+                prev[0].right = node
+                prev[0].left = None
+                prev[0] = node
                 
                 # left
-                recurse(left) # 2 -> 3 -> None
+                recurse(left, prev) # 2 -> 3 -> None
                 # right
-                recurse(right)
+                recurse(right, prev)
             else:
                 return
                 
-        # prev = [TreeNode(0)]
-        recurse(root)
+        prev = [TreeNode(0)]
+        recurse(root, prev)
         return root
         
