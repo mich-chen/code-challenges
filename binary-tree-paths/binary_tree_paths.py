@@ -9,6 +9,7 @@ from typing import List, TreeNode
 
 def binaryTreePaths(root: TreeNode) -> List[str]:
 
+    # DFS recursively
     if not root:
         return []
 
@@ -26,5 +27,30 @@ def binaryTreePaths(root: TreeNode) -> List[str]:
 
     result = []
     dfs(root, '', result)
-    
+
     return result
+
+    """
+    **** DFS Iteratively with Stack ****
+    if not root:
+        return []
+
+    stack = [(root, '')]
+    result = []
+    while stack:
+        current, path = stack.pop()
+
+        # if leaf, add value to path and to result
+        if not current.left and not current.right:
+            path += str(node.val)
+            result.append(path)
+        
+        # if not leaf, concatenate path with arrow and add children to stack
+        path += str(node.val) + '->'
+        if current.left:
+            stack.append((current.left, path))
+        if current.right:
+            stack.append((current.right, path))
+
+    return result
+    """
