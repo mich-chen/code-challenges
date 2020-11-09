@@ -16,6 +16,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 * https://www.hackerrank.com/challenges/minimum-swaps-2/problem
 * https://www.hackerrank.com/challenges/new-year-chaos/problem
+* https://leetcode.com/problems/subarray-sum-equals-k/ --> prefix sum
 
 ### Hashmaps
 * https://leetcode.com/problems/two-sum/
