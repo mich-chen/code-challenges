@@ -70,6 +70,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/path-sum-iii/
 * https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 * https://leetcode.com/problems/binary-tree-level-order-traversal/
+* https://leetcode.com/problems/all-possible-full-binary-trees/
 
 ### Graphs / Recursions / DFS 
 * https://leetcode.com/problems/island-perimeter/
