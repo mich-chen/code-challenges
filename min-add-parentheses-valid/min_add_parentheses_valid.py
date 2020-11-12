@@ -15,4 +15,18 @@ def minAddToMakeValid(S: str) -> int:
 
     return count + res
 
-    
+    # solution with stack, O(n) time and space complexity
+    stack = []
+
+    for i in S:
+        if i == ")":
+            if stack[-1] == "(":
+                stack.pop()
+            else:
+                stack.append()
+
+        if i == "(":
+            stack.append()
+
+    return len(stack)
+
