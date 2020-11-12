@@ -15,18 +15,26 @@ def minAddToMakeValid(S: str) -> int:
 
     return count + res
 
+def minAddToMakeValidStack(S: str) -> int:
     # solution with stack, O(n) time and space complexity
     stack = []
 
     for i in S:
         if i == ")":
-            if stack[-1] == "(":
+            if stack and stack[-1] == "(":
                 stack.pop()
             else:
-                stack.append()
+                stack.append(i)
 
         if i == "(":
-            stack.append()
+            stack.append(i)
 
     return len(stack)
 
+
+if __name__ == '__main__':
+    
+    print(minAddToMakeValid("()))(("))  # 4
+    print(minAddToMakeValid("(()"))  # 1
+    print(minAddToMakeValidStack("()))(("))  # 4
+    print(minAddToMakeValidStack("(()"))  # 1
