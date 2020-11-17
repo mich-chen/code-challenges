@@ -90,6 +90,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/find-the-town-judge/
 * https://leetcode.com/problems/surrounded-regions/
 * https://leetcode.com/problems/jump-game-iii/
+* https://leetcode.com/problems/maximal-square/ --> DP
 
 ### Two Pointer / Sliding Window
 * https://leetcode.com/problems/valid-palindrome/
