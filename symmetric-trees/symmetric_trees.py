@@ -6,8 +6,32 @@ from typing import TreeNode
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
 
 def isSymmetric(root: TreeNode) -> bool:
+# ***** Iterative BFS soltuion ******
+
+    if not root:
+        return True
+
+    q = deque([root.left, root.right])
+
+    while q:
+        left, right = q.popleft(), q.popleft()
+        # base case
+        if not left and not right:
+            continue
+        # invalid cases
+        if not left or not right or (left.val != right.val):
+            return False
+        # continue level traversal, outter pair then inner pair
+        q += [left.left, right.right, left.right, right.left]
+
+    return True
+
+
+
+# ***** Recursive DFS solution ******
 
     if not root:
         return True
