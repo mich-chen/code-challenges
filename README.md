@@ -81,6 +81,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/binary-tree-level-order-traversal/
 * https://leetcode.com/problems/all-possible-full-binary-trees/
 * https://leetcode.com/problems/rotting-oranges/
+* https://leetcode.com/problems/symmetric-tree/
 
 ### Graphs / Recursions / DFS 
 * https://leetcode.com/problems/island-perimeter/
