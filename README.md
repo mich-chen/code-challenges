@@ -19,6 +19,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/subarray-sum-equals-k/ --> prefix sum
 * https://leetcode.com/problems/minimum-absolute-difference/
 * https://leetcode.com/problems/min-cost-climbing-stairs/
+* https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ --> binary search
 
 ### Hashmaps
 * https://leetcode.com/problems/two-sum/
