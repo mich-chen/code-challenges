@@ -1,28 +1,17 @@
 from typing import List
-def findLeftPosition(nums, target):
-    """Binary search for left position."""
+
+def findPosition(nums, target, position):
+    """Binary search for left or right position."""
     lo = 0
     hi = len(nums)
+
     while lo < hi:
         mid = (lo + hi) // 2
-        if nums[mid] >= target:
+        if nums[mid] > target or (position == 'left' and nums[mid] == target):
             hi = mid
         else:
             lo = mid + 1
     return lo
-
-
-def findRightPosition(nums, target):
-    """Binary search for right position."""
-    lo = 0
-    hi = len(nums)
-    while lo < hi:
-        mid = (lo + hi) // 2
-        if nums[mid] > target:
-            hi = mid
-        else: # if nums[mid] <= target
-            lo = mid + 1
-    return lo - 1
 
 
 def searchRange(nums: List[int], target: int) -> List[int]:
@@ -32,13 +21,13 @@ def searchRange(nums: List[int], target: int) -> List[int]:
     if target not in set(nums):
         return [-1, -1]
 
-    # binary search for leftmost position
-    left = self.findLeftPosition(nums, target)
+    # # binary search for leftmost position
+    # left = self.findLeftPosition(nums, target)
 
-    # binary search for rightmost position
-    right = self.findRightPosition(nums, target)
+    # # binary search for rightmost position
+    # right = self.findRightPosition(nums, target)
 
-    return [left, right]
+    return [self.findPosition(nums, target, 'left'), self.findPosition(nums, target, 'right') - 1]
 
 
 def searchRangeLinear(nums: List[int], target: int) -> List[int]:
