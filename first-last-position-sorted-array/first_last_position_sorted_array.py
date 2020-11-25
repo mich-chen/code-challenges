@@ -22,7 +22,22 @@ def searchRange(nums: List[int], target: int) -> List[int]:
     # binary search for leftmost position
     left = self.findLeftPosition(nums, target)
 
-    
+    # binary search for rightmost position
+    lo = 0
+    hi = len(nums)
+    # [5,7,7,8,8,10]
+    #          m
+    #             lh
+    while lo < hi:
+        # 4 + 5 = 9 // 2 = 4
+        mid = (hi + lo) // 2
+        if nums[mid] > target:
+            hi = mid
+        else: # if nums[mid] == target:
+            lo = mid + 1
+    right = lo - 1
+
+
 
 
 
