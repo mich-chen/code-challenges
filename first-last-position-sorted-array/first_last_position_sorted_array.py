@@ -1,7 +1,50 @@
 from typing import List
+def findLeftPosition(nums, target):
+    """Binary search for left position."""
+    lo = 0
+    hi = len(nums)
+    while lo < hi:
+        mid = (lo + hi) // 2
+        if nums[mid] >= target:
+            hi = mid
+        else:
+            lo = mid + 1
+    return lo
+
 
 def searchRange(nums: List[int], target: int) -> List[int]:
+    """Binary search O(n log n) approach."""
+
+    # base case if target not in nums
+    if target not in set(nums):
+        return [-1, -1]
+
+    # binary search for leftmost position
+    lo = 0
+    hi = len(nums)
+
+    # [5,7,7,8,8,10]
+    #      m
+    #        h
+    #        l
+    while lo < hi:
+        # 6 // 2 = 3
+        mid = (lo + hi) // 2
+        if nums[mid] > target or nums[mid] == target:
+            hi = mid
+        else:
+            lo = mid + 1
+    left = lo
+
+
+
+
+
+
+
+def searchRangeLinear(nums: List[int], target: int) -> List[int]:
     """O(n) linear approach."""
+
     # base case if target not in nums
     if target not in set(nums):
         return [-1, -1]
