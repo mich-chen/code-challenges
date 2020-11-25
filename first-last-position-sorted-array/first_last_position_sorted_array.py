@@ -12,6 +12,19 @@ def findLeftPosition(nums, target):
     return lo
 
 
+def findRightPosition(nums, target):
+    """Binary search for right position."""
+    lo = 0
+    hi = len(nums)
+    while lo < hi:
+        mid = (lo + hi) // 2
+        if nums[mid] > target:
+            hi = mid
+        else: # if nums[mid] <= target
+            lo = mid + 1
+    return lo - 1
+
+
 def searchRange(nums: List[int], target: int) -> List[int]:
     """Binary search O(n log n) approach."""
 
@@ -23,26 +36,9 @@ def searchRange(nums: List[int], target: int) -> List[int]:
     left = self.findLeftPosition(nums, target)
 
     # binary search for rightmost position
-    lo = 0
-    hi = len(nums)
-    # [5,7,7,8,8,10]
-    #          m
-    #             lh
-    while lo < hi:
-        # 4 + 5 = 9 // 2 = 4
-        mid = (hi + lo) // 2
-        if nums[mid] > target:
-            hi = mid
-        else: # if nums[mid] == target:
-            lo = mid + 1
-    right = lo - 1
+    right = self.findRightPosition(nums, target)
 
-
-
-
-
-
-
+    return [left, right]
 
 
 def searchRangeLinear(nums: List[int], target: int) -> List[int]:
