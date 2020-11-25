@@ -20,21 +20,9 @@ def searchRange(nums: List[int], target: int) -> List[int]:
         return [-1, -1]
 
     # binary search for leftmost position
-    lo = 0
-    hi = len(nums)
+    left = self.findLeftPosition(nums, target)
 
-    # [5,7,7,8,8,10]
-    #      m
-    #        h
-    #        l
-    while lo < hi:
-        # 6 // 2 = 3
-        mid = (lo + hi) // 2
-        if nums[mid] > target or nums[mid] == target:
-            hi = mid
-        else:
-            lo = mid + 1
-    left = lo
+    
 
 
 
