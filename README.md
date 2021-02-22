@@ -110,3 +110,5 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://www.hackerrank.com/challenges/ctci-bubble-sort/problem
 * https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem
 
+### Math
+* https://leetcode.com/problems/palindrome-number/
