@@ -20,6 +20,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/minimum-absolute-difference/
 * https://leetcode.com/problems/min-cost-climbing-stairs/
 * https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ --> binary search
+* https://leetcode.com/problems/maximum-product-subarray/
 
 ### Hashmaps
 * https://leetcode.com/problems/two-sum/
@@ -32,7 +33,6 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/valid-anagram/
 * https://leetcode.com/problems/group-anagrams/
 * https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
-
 
 ### Strings
 * https://www.hackerrank.com/challenges/ctci-making-anagrams/problem
@@ -56,7 +56,6 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/palindrome-linked-list/
 * https://leetcode.com/problems/reverse-linked-list/
 * https://leetcode.com/problems/reverse-linked-list-ii/
-
 
 ### Trees / Recursions / DFS/ BFS
 * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
@@ -97,12 +96,14 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/jump-game-iii/
 * https://leetcode.com/problems/maximal-square/ --> DP
 
-
 ### Two Pointer / Sliding Window
 * https://leetcode.com/problems/valid-palindrome/
 * https://www.hackerrank.com/challenges/counting-valleys/
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 * https://leetcode.com/problems/positions-of-large-groups/
+
+### Dynamic Programming
+* https://leetcode.com/problems/fibonacci-number/
 
 ### Greedy
 * https://leetcode.com/problems/assign-cookies/
