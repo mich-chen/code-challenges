@@ -46,3 +46,9 @@
 [submodule "queues-stacks/sock-merchant"]
 	path = queues-stacks/sock-merchant
 	url = https://github.com/mich-chen/sales-by-match
+[submodule "two-pointer-sliding-window/valid-palindrome"]
+	path = two-pointer-sliding-window/valid-palindrome
+	url = https://github.com/mich-chen/valid-palindrome
+[submodule "two-pointer-sliding-window/counting-valleys"]
+	path = two-pointer-sliding-window/counting-valleys
+	url = https://github.com/mich-chen/counting-valleys
