@@ -6,3 +6,4 @@
 * https://leetcode.com/problems/reorganize-string/
 * https://leetcode.com/problems/reformat-the-string/
 * https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
+* https://leetcode.com/problems/number-of-good-ways-to-split-a-string/

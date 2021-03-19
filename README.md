@@ -42,6 +42,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/reorganize-string/
 * https://leetcode.com/problems/reformat-the-string/
 * https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
+* https://leetcode.com/problems/number-of-good-ways-to-split-a-string/
 
 ### Queues / Stacks
 * https://leetcode.com/problems/valid-parentheses/
