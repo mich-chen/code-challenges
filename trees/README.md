@@ -1,0 +1,27 @@
+### Trees / Recursions / DFS/ BFS
+* https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
+* https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem
+* https://leetcode.com/problems/longest-univalue-path/
+* https://leetcode.com/problems/minimum-depth-of-binary-tree/
+* https://leetcode.com/problems/range-sum-of-bst/submissions/
+* https://leetcode.com/problems/maximum-depth-of-binary-tree/
+* https://leetcode.com/problems/average-of-levels-in-binary-tree/
+* https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+* https://leetcode.com/problems/cousins-in-binary-tree/
+* https://leetcode.com/problems/search-in-a-binary-search-tree/
+* https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+* https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+* https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
+* https://leetcode.com/problems/delete-nodes-and-return-forest/
+* https://leetcode.com/problems/leaf-similar-trees/
+* https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+* https://leetcode.com/problems/deepest-leaves-sum/
+* https://leetcode.com/problems/binary-tree-paths/
+* https://leetcode.com/problems/path-sum/
+* https://leetcode.com/problems/path-sum-ii/
+* https://leetcode.com/problems/path-sum-iii/
+* https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+* https://leetcode.com/problems/binary-tree-level-order-traversal/
+* https://leetcode.com/problems/all-possible-full-binary-trees/
+* https://leetcode.com/problems/rotting-oranges/
+* https://leetcode.com/problems/symmetric-tree/
