@@ -52,3 +52,6 @@
 [submodule "two-pointer-sliding-window/counting-valleys"]
 	path = two-pointer-sliding-window/counting-valleys
 	url = https://github.com/mich-chen/counting-valleys
+[submodule "greedy/assign-cookies"]
+	path = greedy/assign-cookies
+	url = https://github.com/mich-chen/assign-cookies
