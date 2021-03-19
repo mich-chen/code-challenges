@@ -1,0 +1,11 @@
+### Hashmaps
+* https://leetcode.com/problems/two-sum/
+* https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+* https://leetcode.com/problems/move-zeroes/
+* https://www.hackerrank.com/challenges/repeated-string/problem
+* https://www.hackerrank.com/challenges/ctci-ransom-note/problem
+* https://www.hackerrank.com/challenges/two-strings/problem
+* https://leetcode.com/problems/first-unique-character-in-a-string/
+* https://leetcode.com/problems/valid-anagram/
+* https://leetcode.com/problems/group-anagrams/
+* https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
