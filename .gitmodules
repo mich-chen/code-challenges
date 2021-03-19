@@ -40,3 +40,9 @@
 [submodule "hashmaps/ransom-note"]
 	path = hashmaps/ransom-note
 	url = https://github.com/mich-chen/ransom-note
+[submodule "queues-stacks/valid-parentheses"]
+	path = queues-stacks/valid-parentheses
+	url = https://github.com/mich-chen/valid-parentheses
+[submodule "queues-stacks/sock-merchant"]
+	path = queues-stacks/sock-merchant
+	url = https://github.com/mich-chen/sales-by-match
