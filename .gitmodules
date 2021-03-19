@@ -1,0 +1,12 @@
+[submodule "arrays/arrays/jumping-on-clouds"]
+	path = arrays/arrays/jumping-on-clouds
+	url = https://github.com/mich-chen/jumping-on-clouds
+[submodule "arrays/arrays/max-subarray"]
+	path = arrays/arrays/max-subarray
+	url = https://github.com/mich-chen/max-subarray
+[submodule "arrays/arrays/left-rotation"]
+	path = arrays/arrays/left-rotation
+	url = https://github.com/mich-chen/left-rotation
+[submodule "arrays/arrays/product-array-except-self"]
+	path = arrays/arrays/product-array-except-self
+	url = https://github.com/mich-chen/product-array-except-self
