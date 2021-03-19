@@ -10,3 +10,18 @@
 [submodule "arrays/arrays/product-array-except-self"]
 	path = arrays/arrays/product-array-except-self
 	url = https://github.com/mich-chen/product-array-except-self
+[submodule "arrays/two-sum"]
+	path = arrays/two-sum
+	url = https://github.com/mich-chen/two-sum
+[submodule "arrays/jumping-on-clouds"]
+	path = arrays/jumping-on-clouds
+	url = https://github.com/mich-chen/jumping-on-clouds
+[submodule "arrays/max-subarray"]
+	path = arrays/max-subarray
+	url = https://github.com/mich-chen/max-subarray
+[submodule "arrays/left-rotation"]
+	path = arrays/left-rotation
+	url = https://github.com/mich-chen/left-rotation
+[submodule "arrays/product-array-except-self"]
+	path = arrays/product-array-except-self
+	url = https://github.com/mich-chen/product-array-except-self
