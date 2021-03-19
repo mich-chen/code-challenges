@@ -25,3 +25,9 @@
 [submodule "arrays/product-array-except-self"]
 	path = arrays/product-array-except-self
 	url = https://github.com/mich-chen/product-array-except-self
+[submodule "hashmaps/two-sum"]
+	path = hashmaps/two-sum
+	url = https://github.com/mich-chen/two-sum
+[submodule "hashmaps/best-time-buy-sell-stock"]
+	path = hashmaps/best-time-buy-sell-stock
+	url = https://github.com/mich-chen/best-time-buy-sell-stock
