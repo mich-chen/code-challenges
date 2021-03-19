@@ -31,3 +31,12 @@
 [submodule "hashmaps/best-time-buy-sell-stock"]
 	path = hashmaps/best-time-buy-sell-stock
 	url = https://github.com/mich-chen/best-time-buy-sell-stock
+[submodule "hashmaps/move-zeros"]
+	path = hashmaps/move-zeros
+	url = https://github.com/mich-chen/move-zeros
+[submodule "hashmaps/repeated-strings"]
+	path = hashmaps/repeated-strings
+	url = https://github.com/mich-chen/repeated-strings
+[submodule "hashmaps/ransom-note"]
+	path = hashmaps/ransom-note
+	url = https://github.com/mich-chen/ransom-note
