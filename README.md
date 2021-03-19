@@ -40,6 +40,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem
 * https://leetcode.com/problems/valid-palindrome-ii/
 * https://leetcode.com/problems/reorganize-string/
+* https://leetcode.com/problems/reformat-the-string/
 
 ### Queues / Stacks
 * https://leetcode.com/problems/valid-parentheses/
