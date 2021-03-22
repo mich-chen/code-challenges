@@ -56,6 +56,22 @@ class Solution:
 
     def bucket_checkInclusion(self, s1: str, s2: str) -> bool:
         """Use alphabet bucket as counter"""
+        counter1 = [0] * 26
+        counter2 = [0] * 26
+        for ch in s1:
+            counter1[ord(ch) - ord('a')] += 1
+
+        # while iterating, add current character to counter2
+        for i, ch in enumerate(s2):
+            counter2[ord(ch) - ord('a')] += 1
+            # track length of window by checking current iteration index
+            if i >= len(s1):
+                # remove beginning of window
+                counter2[ord(s2[i - len(s1)]) - ord('a')] -= 1
+            
+            if counter1 == counter2:
+                return True
+        return False
 
 if __name__ == '__main__':
 
@@ -70,5 +86,8 @@ if __name__ == '__main__':
     ex2 = examples.counter_checkInclusion("ab", "eidboaoo")
     print(ex2) # False
 
-    
+    ex3 = examples.bucket_checkInclusion("ab", "eidbaooo")
+    print(ex3) # True
+    ex3 = examples.bucket_checkInclusion("ab", "eidboaoo")
+    print(ex3) # False
     
