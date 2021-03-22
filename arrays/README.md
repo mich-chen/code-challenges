@@ -18,3 +18,5 @@
 * https://leetcode.com/problems/min-cost-climbing-stairs/
 * https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ --> binary search
 * https://leetcode.com/problems/maximum-product-subarray/
+* https://leetcode.com/problems/permutations/ --> with Recursion and Backtracking
+* https://leetcode.com/problems/permutations-ii/ --> with Recursion and Backtracking
