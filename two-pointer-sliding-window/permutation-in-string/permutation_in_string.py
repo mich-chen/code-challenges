@@ -32,7 +32,28 @@ class Solution:
 
     def counter_checkInclusion(self, s1: str, s2: str) -> bool:
         """Second fastest - use collections.Counter as counter"""
-    
+        counter1 = Counter(s1)
+        counter2 = Counter(s2[:len(s1)])
+
+        # sliding window
+        start = 0
+        end = len(s1)
+        while end < len(s2):
+            if counter1 == counter2:
+                return True
+            # remove beginning of window
+            counter2[s2[start]] -= 1
+            if counter2[s2[start]] < 1:
+                counter2.pop(s2[start])
+            # expand end of window, since end pointer might not already be in counter, use .get()
+            counter2[s2[end]] = counter2.get(s2[end], 0) + 1
+            # move pointers
+            start += 1
+            end += 1
+        
+        return counter1 == counter2
+
+
     def bucket_checkInclusion(self, s1: str, s2: str) -> bool:
         """Use alphabet bucket as counter"""
 
@@ -43,4 +64,11 @@ if __name__ == '__main__':
     print(ex1) # True
     ex1 = examples.defaultdict_checkInclusion("ab", "eidboaoo")
     print(ex1) # False
+
+    ex2 = examples.counter_checkInclusion("ab", "eidbaooo")
+    print(ex2) # True
+    ex2 = examples.counter_checkInclusion("ab", "eidboaoo")
+    print(ex2) # False
+
+    
     
