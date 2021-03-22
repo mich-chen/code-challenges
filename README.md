@@ -21,6 +21,8 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/min-cost-climbing-stairs/
 * https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ --> binary search
 * https://leetcode.com/problems/maximum-product-subarray/
+* https://leetcode.com/problems/permutations/ --> with Recursion and Backtracking
+* https://leetcode.com/problems/permutations-ii/ --> with Recursion and Backtracking
 
 ### Hashmaps
 * https://leetcode.com/problems/two-sum/
@@ -105,6 +107,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://www.hackerrank.com/challenges/counting-valleys/
 * https://leetcode.com/problems/longest-substring-without-repeating-characters/
 * https://leetcode.com/problems/positions-of-large-groups/
+* https://leetcode.com/problems/permutation-in-string/ (same/similar to https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
 ### Dynamic Programming
 * https://leetcode.com/problems/fibonacci-number/
