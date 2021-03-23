@@ -90,6 +90,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/rotting-oranges/
 * https://leetcode.com/problems/symmetric-tree/
 * https://leetcode.com/problems/balanced-binary-tree/
+* https://leetcode.com/problems/time-needed-to-inform-all-employees/
 
 ### Graphs / Recursions / DFS 
 * https://leetcode.com/problems/island-perimeter/
