@@ -10,7 +10,40 @@ def maxDepth(root: TreeNode) -> int:
     # if node, 1 + the maximum between its left and right children
     return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
 
+def maxDepth_recursive2(root: TreeNode) -> int:
+
+    # ----- 2nd recursive DFS solution -----------------------
+    # base case
+    if not root:
+        return 0
+    
+    def traverse(node, level):
+        # if at leaf
+        if not node or (not node.left and not node.right):
+            return level
+        left = traverse(node.left, level + 1)
+        right = traverse(node.right, level + 1)
+
+        return max(left, right)
+    return traverse(root, 1)
+
 """
+----- DFS iterative solution 2 ------
+
+if not node:
+    return 0
+longest = 1
+stack = [(root, 1)]
+while stack:
+    node, level = stack.pop()
+    # if at leaf
+    if not node or (not node.left and not node.right):
+        longest = max(level, longest)
+    else:
+        stack.extend([(node.left, level + 1), (node.right, level + 1)])
+return longest
+
+
 ***** DFS iterative solution ******
 
 stack = [(root, 1)]
