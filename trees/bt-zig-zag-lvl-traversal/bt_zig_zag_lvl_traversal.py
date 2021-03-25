@@ -6,9 +6,38 @@
 #         self.right = right
 from typing import TreeNode, List
 from collections import deque
+from collections import defaultdict
 
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
+
+        # recursively - faster than 97% python solutions on LC
+        if not root:
+            return []
+
+        result = defaultdict(list)
+        def bfs(node, lvl):
+            # if at leaves
+            if not node:
+                return
+            else:
+                result[i].append(node.val)
+                # traverse, track level by index in result
+                if node.left:
+                    bfs(node.left, lvl + 1)
+                if node.right:
+                    bfs(node.right, lvl + 1)
+
+        bfs(root, 0)
+
+        # levels are inorder by insertion, inserted from top-down of tree
+        for lvl, nodes in result.items():
+            # reverse odd levels
+            if lvl % 2 > 0:
+                result[lvl] = nodes[::-1]
+            # result[lvl] = nodes[::-1 ** lvl]
+
+        return list(result.values())
 
 
 # ------------------------------------------------------------------------------
