@@ -33,6 +33,52 @@ def islandPerimeter(grid: List[List[int]]) -> int:
 
     return perimeter
 
+# ------------------------------------------------------------------------------
+# alternative recursive method:
+# Traverse only on island by DFS helper function
+
+class Solution2:
+    perimeter = 0
+    def islandPerimeter(grid: List[List[int]]) -> int:
+        """Not faster solution, but an alternative way to dfs and find perimeter"""
+
+        rows = len(grid)
+        cols = len(grid[0])
+        
+        start_row = None
+        start_col = None
+        # find first instance of land
+        for row in range(rows):
+            for col in range(cols):
+                if grid[row][col] == 1:
+                    print(row, col)
+                    start_row = row
+                    start_col = col
+                    break
+            if start_row is not None and start_col is not None:
+                break
+
+        def dfs(grid, row, col):
+            # if on water or outside border add 1
+            if row < 0 or row >= rows or col < 0 or col >= cols or grid[row][col] == 0:
+                self.perimeter += 1
+                return
+            # if already seen this land
+            if grid[row][col] == 'x':
+                return
+            
+            # if land, traverse dfs
+            if grid[row][col] == 1:
+                # mark as seen
+                grid[row][col] = 'x'
+                dfs(grid, row + 1, col)
+                dfs(grid, row - 1, col)
+                dfs(grid, row, col - 1) 
+                dfs(grid, row, col + 1)  
+        
+        dfs(grid, start_row, start_col)
+        return self.perimeter
+
 
 """
 Alternative solution: brute force 
