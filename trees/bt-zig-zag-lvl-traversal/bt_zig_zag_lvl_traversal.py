@@ -21,8 +21,9 @@ class Solution:
             if not node:
                 return
             else:
+                # track level by key in result dictionary, values are nodes at lvl
                 result[i].append(node.val)
-                # traverse, track level by index in result
+                # traverse
                 if node.left:
                     bfs(node.left, lvl + 1)
                 if node.right:
