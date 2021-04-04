@@ -29,6 +29,21 @@ def minDepth(root):
 
     return depth
 
+def minDepth_recursive(root):
+    """Recursively BFS, min depth when hit first leaf."""
+    if not root:
+        return 0
+    if not root.left and not root.right:
+        return 1
+    # reduce unnecessary traversals
+    if not root.left:
+        # add self as a count to depth
+        return 1 + self.minDepth_recursive(root.right)
+    if not root.right:
+        # add self as a count to depth
+        return 1 + self.minDepth_recursive(root.left)
+    return 1 + min(self.minDepth_recursive(root.left), self.minDepth_recursive(root.right))
+
 
 # Input: [3,9,20,null,null,15,7]
 # Output: 2
