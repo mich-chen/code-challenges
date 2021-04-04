@@ -38,11 +38,11 @@ def minDepth_recursive(root):
     # reduce unnecessary traversals
     if not root.left:
         # add self as a count to depth
-        return 1 + self.minDepth_recursive(root.right)
+        return 1 + minDepth_recursive(root.right)
     if not root.right:
         # add self as a count to depth
-        return 1 + self.minDepth_recursive(root.left)
-    return 1 + min(self.minDepth_recursive(root.left), self.minDepth_recursive(root.right))
+        return 1 + minDepth_recursive(root.left)
+    return 1 + min(minDepth_recursive(root.left), minDepth_recursive(root.right))
 
 
 # Input: [3,9,20,null,null,15,7]
