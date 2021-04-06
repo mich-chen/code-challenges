@@ -94,6 +94,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/time-needed-to-inform-all-employees/
 * https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 * https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+* https://leetcode.com/problems/sum-root-to-leaf-numbers/
 
 ### Graphs / Recursions / DFS 
 * https://leetcode.com/problems/island-perimeter/
