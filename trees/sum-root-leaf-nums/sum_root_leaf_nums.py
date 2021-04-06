@@ -7,7 +7,7 @@ class TreeNode:
 
 class Solution:
     def sumNumbers(self, root: TreeNode) -> int:
-
+        """Recrusively - DFS"""
         def dfs(node, number):
             if node:
                 # if at leaf, return the root-to-leaf number
@@ -20,4 +20,20 @@ class Solution:
             return 0
 
         return dfs(root, 0)
+
+    def sumNumbers_iterative(self, root: TreeNode) -> int:
+        """Iteratively - DFS- Stack"""
+        # stack to store tuple of (node, root-to-leaf path num)
+        stack = [(root, 0)]
+        total = 0
+        while stack:
+            node, num = stack.pop()
+            # if leaf
+            if not node.left and not node.right:
+                total += (num * 10 + node.val)
+            if node.right:
+                stack.append((node.right, num * 10 + node.val))
+            if node.left:
+                stack.append((node.left, num * 10 + node.val))
+        return total
         
