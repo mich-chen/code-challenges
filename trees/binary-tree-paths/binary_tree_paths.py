@@ -6,6 +6,27 @@ from typing import List, TreeNode
 #         self.val = val
 #         self.left = left
 #         self.right = right
+class Solution:
+    output = []
+    def binaryTreePaths(self, root: TreeNode) -> List[str]:
+        """refacctoring recursive solution"""
+        def dfs(node, path):
+            if node:
+                # at leaf, add path to output
+                if not node.left and not node.right:
+                    path = '->'.join(path + [str(node.val)])
+                    self.output.append(path)
+                    return
+                # traverse
+                dfs(node.left, path + [str(node.val)])
+                dfs(node.right, path + [str(node.val)])
+            
+        # base case constraint: root only contains one node
+        self.output = [] # reset class attribute for each new instance of class
+        dfs(root, [])
+        return self.output
+
+# ------------------------------------------------------------------------------
 
 def binaryTreePaths(root: TreeNode) -> List[str]:
 
