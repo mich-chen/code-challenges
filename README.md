@@ -23,6 +23,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/maximum-product-subarray/
 * https://leetcode.com/problems/permutations/ --> with Recursion and Backtracking
 * https://leetcode.com/problems/permutations-ii/ --> with Recursion and Backtracking
+* https://leetcode.com/problems/pascals-triangle/ --> for-loop and recursion
 
 ### Hashmaps
 * https://leetcode.com/problems/two-sum/

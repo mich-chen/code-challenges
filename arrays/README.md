@@ -20,3 +20,4 @@
 * https://leetcode.com/problems/maximum-product-subarray/
 * https://leetcode.com/problems/permutations/ --> with Recursion and Backtracking
 * https://leetcode.com/problems/permutations-ii/ --> with Recursion and Backtracking
+* https://leetcode.com/problems/pascals-triangle/ --> for-loop and recursion
