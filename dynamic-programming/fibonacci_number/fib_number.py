@@ -34,6 +34,14 @@ class Solution:
             dp.append(dp[i-1] + dp[i-2])
 
         return dp[N]
+
+    def fib_recursive(self, N:int) -> int:
+        """Recursive solution using one function."""
+        # base case
+        if N <= 1:
+            return N
+        else:
+            return self.fib_recursive(N-1) + self.fib_recursive(N-2)
         
 
 if __name__ == '__main__':
@@ -43,5 +51,6 @@ if __name__ == '__main__':
     example2 = Solution()
     print(example2.fib(30)) # 832040
     print(example2.fib_iterative_dp(30)) # 832040
+    print(example1.fib_recursive(4)) # 3
 
 
