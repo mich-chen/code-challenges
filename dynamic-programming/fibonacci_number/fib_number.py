@@ -21,6 +21,21 @@ class Solution:
         # if cached fib number exists, return
         return dp[N]
 
+    def fib_iterative_dp(self, N:int) -> int:
+        """iterative and dp to store fib numbers solution."""
+
+        # base case
+        if N <= 1:
+            return N
+
+        dp = [1,1]
+
+        for i in range(2, n):
+            dp[i] = dp[i-1] + dp[i-2]
+
+        return dp[N]
+        
+
 if __name__ == '__main__':
 
     example1 = Solution()
