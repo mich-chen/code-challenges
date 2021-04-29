@@ -17,7 +17,7 @@ class Solution:
         return recurse(numRows - 1, [[1]])
 
     def generate_iterative(self, numRows: int) -> List[List[int]]:
-        """Iterative for-loop solution"""
+        """Iterative for-loop solution; O(n) linear time complexity, """
         if numRows == 0:
             return []
         
