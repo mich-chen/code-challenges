@@ -28,10 +28,10 @@ class Solution:
         if N <= 1:
             return N
 
-        dp = [1,1]
+        dp = [0,1]
 
-        for i in range(2, N):
-            dp[i] = dp[i-1] + dp[i-2]
+        for i in range(2, N + 1):
+            dp.append(dp[i-1] + dp[i-2])
 
         return dp[N]
         
@@ -42,5 +42,6 @@ if __name__ == '__main__':
     print(example1.fib(4)) # 3
     example2 = Solution()
     print(example2.fib(30)) # 832040
+    print(example2.fib_iterative_dp(30)) # 832040
 
 
