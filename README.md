@@ -54,6 +54,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/daily-temperatures/
 * https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 * https://leetcode.com/problems/remove-duplicate-letters/
+* https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
 
 ### Linked Lists
 * https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/problem
