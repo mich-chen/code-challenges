@@ -37,6 +37,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/valid-anagram/
 * https://leetcode.com/problems/group-anagrams/
 * https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+* https://leetcode.com/problems/find-common-characters/
 
 ### Strings
 * https://www.hackerrank.com/challenges/ctci-making-anagrams/problem
