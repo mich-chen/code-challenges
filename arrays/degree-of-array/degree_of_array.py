@@ -38,7 +38,8 @@ class Solution:
         return smallest_length
 
     def findShortestSubArray_faster(self, nums: List[int]) -> int:
-
+        """Faster than 99%"""
+        
         indexes = {}
         for i, n in enumerate(nums):
             if n in indexes:
