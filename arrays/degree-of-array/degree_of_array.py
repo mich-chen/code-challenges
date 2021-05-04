@@ -37,6 +37,23 @@ class Solution:
 
         return smallest_length
 
+    def findShortestSubArray_faster(self, nums: List[int]) -> int:
+
+        indexes = {}
+        for i, n in enumerate(nums):
+            if n in indexes:
+                indexes[n].append(i)
+            else:
+                indexes[n] = [i]
+        
+        # alternatively using defaultdict: (slightly slower)
+        # indexes = defaultdict(list)
+        # for i, n in enumerate(nums):
+        #     indexes[n].append(i)
+
+        degree = max(len(lst) for lst in indexes.values())
+
+        return min([lst[-1] - lst[0] + 1 for lst in indexes.values() if len(lst) == degree])
 
 if __name__ == '__main__':
 
@@ -44,3 +61,4 @@ if __name__ == '__main__':
     print(example.findShortestSubArray([1,2,2,3,1])) # 2
     print(example.findShortestSubArray([1,2,2,3,1,4,2])) # 6
     print(example.findShortestSubArray_single_pass([1,2,2,3,1,4,2]))
+    print(example.findShortestSubArray_faster([1,2,2,3,1,4,2]))
