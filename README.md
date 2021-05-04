@@ -122,6 +122,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 
 ### Dynamic Programming
 * https://leetcode.com/problems/fibonacci-number/
+* https://leetcode.com/problems/climbing-stairs/
 
 ### Greedy
 * https://leetcode.com/problems/assign-cookies/
