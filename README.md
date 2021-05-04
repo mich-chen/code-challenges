@@ -27,6 +27,7 @@ Master repo to hold all code challenge solutions by folder. Each challenge will 
 * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 * https://leetcode.com/problems/degree-of-an-array/
+* https://leetcode.com/problems/find-all-duplicates-in-an-array/
 
 ### Hashmaps
 * https://leetcode.com/problems/two-sum/
