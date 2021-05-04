@@ -39,6 +39,29 @@ class Solution:
 
         return ways
 
+    def climbStairs_recurseively(self, n: int) -> int:
+        
+        # base case
+        if n <= 2:
+            return n
+
+        dp = {1:1, 2:2}
+        self.recurse(n, dp)
+        return dp[n]
+
+    def recurse(self, step, dp):
+        if step <= 2:
+            return step
+
+        # if step's ways is not cached in dp
+        if step not in dp:
+            # calculate one previous step and two previous step by recursion
+            dp[step] = self.recurse(step - 1, dp) + self.recurse(step - 2, dp)
+        
+        # return cached step's ways
+        return dp[step]
+
+
 if __name__ == '__main__':
 
     example = Solution()
@@ -46,3 +69,5 @@ if __name__ == '__main__':
     print(example.climbStairs(38)) # 63245986
     print(example.climbStairs_constant_space(5))
     print(example.climbStairs_constant_space(38))
+    print(example.climbStairs_recurseively(5))
+    print(example.climbStairs_recurseively(38))
